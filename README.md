@@ -8,7 +8,9 @@ Steps to reproduce:
 
 `conda env create -f environment.yml`
 
-2. Run the Jupyter notebook
+2. Download the data from https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/overview. This repository only uses a subset of this data.
+
+3. Run the Jupyter notebook
 
 
 This is a difficult problem due to the fact that we only have one 2D image of the brain for each haemorrhage. Furthermore, our images are of a very small size. Nevertheless, our final model performs reasonably well. Future steps to improve the model:
